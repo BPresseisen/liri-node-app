@@ -20,9 +20,9 @@
 
 **Q4: Where users can get help with your project?**
   
-*A4: Absolutely begin with reading this README.md file. The instructions above in **Q3**/A3 are an essential starting point. After that, usage is the best way to learn. Start inputting some searches. 
+*A4: Absolutely begin with reading this README.md file. The instructions above in **Q3**/A3 are an essential starting point. After that, usage is the best way to learn. Start inputting some searches.* 
   
-Just remember the syntax for searches that follow this notation at the command line for these four (4) use-cases:*
+Just remember the syntax for searches that follow this notation at the command line for these four (4) use-cases:
   
 **(1) For concert searches:**
   
