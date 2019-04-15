@@ -6,7 +6,11 @@
 
 **Q2: Why the project is useful?**
   
-*A2: For one it is an all-in-one media and experiential content details gopher. Whether it's attending a concert, a deep dive into a particular movie that strikes your interet, or getting the link to a track for your listening pleasure **liri-node-app** provides a singular source to satisfy your pursuits. It's also a really great way to demonstrate how files and code in node.js are required, leveraged, organized, and how third party data return services are accesed with Axios or libraries in npm.*
+*A2: Are you tired of having to search for content-music-media-concerts in several different locations/services? How about an a 1-stop shop for these queries?? **liri.js** is an all-in-one media and experiential content details gopher. 
+  
+Whether it's attending a concert, a deep dive into a particular movie that strikes your interet, or getting the link to a track for your listening pleasure **liri-node-app** provides a singular source to satisfy your pursuits. 
+  
+It's also a really great way to demonstrate how files and code in node.js are required, leveraged, organized, and how third party data return services are accesed with Axios or libraries in npm.*
 
 **Q3: How users can get started with the project?**
   
@@ -31,5 +35,7 @@
 **Q5: Who maintains and contributes to the project?**
   
 *A5: The **liri.js** app is solely maintained and contributed to by its project-repository owner. It is enhanced, modified, or altered in any way at their discretion. Feedback is welcomed--especially in the form of artist/bands, songs, and movie title recommendations!! Thanks for your interest.*
+  
+Here are some screen-shots/examples of the **liri.js** app in action
   
  
