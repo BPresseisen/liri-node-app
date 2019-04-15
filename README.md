@@ -2,7 +2,7 @@
 
 **Q1: What does liri-node-app do?**
   
-*A1: It is a node.js app that can query and return selected key-value pairs from Bands In Town, Spotify, or OMDB based on user input at the command line in the terminal.* 
+*A1: It is a node.js app that can query and return selected key-value pairs from Bands In Town, Spotify, or OMDB websites based on user-input at the command line in the terminal.* 
 
 **Q2: Why the project is useful?**
   
@@ -20,25 +20,33 @@
 
 **Q4: Where users can get help with your project?**
   
-*A4: Absolutely begin with reading this README.md file. The instructions above in **Q3**/A3 are an essential starting point. After that, usage is the best way to learn. Start inputting some searches. Just rememember the syntax/notation for searches that follow the node liri.js input at the command line:*
+*A4: Absolutely begin with reading this README.md file. The instructions above in **Q3**/A3 are an essential starting point. After that, usage is the best way to learn. Start inputting some searches. 
   
---> For concert searches:
+Just remember the syntax/notation for searches that follow the node liri.js input at the command line for these four (4) use cases:*
+  
+(1) For concert searches:
   
 **node liri.js concert-this "ENTER BAND OR ARTIST NAME iNSiDE tHesE quotation marks"**
   
 --> enter band or artist name iN UPPER oR lower case--CASE dOEs nOT maTter"
   
---> For Spotify searches:
+(2) For Spotify searches:
   
 **node liri.js spotify-this-song "ENTER SONG NAME iNSiDE tHesE quotation marks"**
   
 --> enter song iN UPPER oR lower case--CASE dOEs nOT maTter"
   
---> For Movie searches on OMDB (Online Movie Database--the original IMDB):
+(3) For Movie searches on OMDB (Online Movie Database--the original IMDB):
   
 **node liri.js movie-this "ENTER MOVIE TITLE iNSiDE tHesE quotation marks"**
   
 --> enter movie iN UPPER oR lower case--CASE dOEs nOT maTter"
+  
+(4) For the Random aka "Surprise Me" search:
+  
+**node liri.js do-what-it-says "ENTER TEXT iNSiDE tHesE quotation marks"**
+  
+--> enter text iN UPPER oR lower case--CASE dOEs nOT maTter"
   
 **Q5: Who maintains and contributes to the project?**
   
