@@ -22,29 +22,29 @@
   
 *A4: Absolutely begin with reading this README.md file. The instructions above in **Q3**/A3 are an essential starting point. After that, usage is the best way to learn. Start inputting some searches. 
   
-Just remember the syntax/notation for searches that follow the node liri.js input at the command line for these four (4) use cases:*
+Just remember the syntax for searches that follow this notation at the command line for these four (4) use-cases:*
   
-(1) For concert searches:
+**(1) For concert searches:**
   
-**node liri.js concert-this "ENTER BAND OR ARTIST NAME iNSiDE tHesE quotation marks"**
+node liri.js concert-this "ENTER BAND OR ARTIST NAME iNSiDE tHesE quotation marks"
   
 --> enter band or artist name iN UPPER oR lower case--CASE dOEs nOT maTter"
   
-(2) For Spotify searches:
+**(2) For Spotify searches:**
   
-**node liri.js spotify-this-song "ENTER SONG NAME iNSiDE tHesE quotation marks"**
+node liri.js spotify-this-song "ENTER SONG NAME iNSiDE tHesE quotation marks"
   
 --> enter song iN UPPER oR lower case--CASE dOEs nOT maTter"
   
-(3) For Movie searches on OMDB (Online Movie Database--the original IMDB):
+**(3) For Movie searches on OMDB (Online Movie Database--the original IMDB):**
   
-**node liri.js movie-this "ENTER MOVIE TITLE iNSiDE tHesE quotation marks"**
+node liri.js movie-this "ENTER MOVIE TITLE iNSiDE tHesE quotation marks"
   
 --> enter movie iN UPPER oR lower case--CASE dOEs nOT maTter"
   
-(4) For the Random aka "Surprise Me" search:
+**(4) For the Random aka "Surprise Me" search:**
   
-**node liri.js do-what-it-says "ENTER TEXT iNSiDE tHesE quotation marks"**
+node liri.js do-what-it-says "ENTER TEXT iNSiDE tHesE quotation marks"
   
 --> enter text iN UPPER oR lower case--CASE dOEs nOT maTter"
   
