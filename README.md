@@ -6,9 +6,11 @@
 
 **Q2: Why the project is useful?**
   
-*A2: Are you tired of having to search for content-music-media-concerts in several different locations/services? How about an a 1-stop shop for these queries?? **liri.js** is an all-in-one media and experiential content details gopher.* 
+*A2: Are you tired of having to search for content-music-media-concerts-movies across several different locations/services?* 
   
-*Whether it's attending a concert, a deep dive into a particular movie that strikes your interet, or getting the link to a track for your listening pleasure **liri-node-app** provides a singular source to satisfy your pursuits.* 
+**->>How about an a 1-stop shop for these queries?? **liri.js** is an all-in-one media and experiential content details gopher.** 
+  
+*Whether it's attending a concert, a deep dive into a movie's particular production details per your interest, or getting the link to a track for your listening pleasure, the **liri-node-app** provides a singular source to satisfy these pursuits.* 
   
 *It's also a really great way to demonstrate how files and code in node.js are required, leveraged, organized, and how third party data return services are accesed with Axios or libraries in npm.*
 
