@@ -24,15 +24,21 @@
   
 --> For concert searches:
   
-**node liri.js concert-this "ENTER BAND OR ARTIST NAME iNSiDE tHesE quotation marks--iN UPPER oR lower case--CASE dOEs nOT maTter"**
+**node liri.js concert-this "ENTER BAND OR ARTIST NAME iNSiDE tHesE quotation marks"**
+  
+--> enter band or artist name iN UPPER oR lower case--CASE dOEs nOT maTter"
   
 --> For Spotify searches:
   
-**node liri.js spotify-this-song "ENTER SONG NAME iNSiDE tHesE quotation marks--iN UPPER oR lower case--CASE dOEs nOT maTter"**
+**node liri.js spotify-this-song "ENTER SONG NAME iNSiDE tHesE quotation marks"**
+  
+--> enter song iN UPPER oR lower case--CASE dOEs nOT maTter"
   
 --> For Movie searches on OMDB (Online Movie Database--the original IMDB):
   
-**node liri.js movie-this "ENTER MOVIE TITLE iNSiDE tHesE quotation marks--UPPER oR lower case--CASE dOEs nOT maTter"**
+**node liri.js movie-this "ENTER MOVIE TITLE iNSiDE tHesE quotation marks"**
+  
+--> enter movie iN UPPER oR lower case--CASE dOEs nOT maTter"
   
 **Q5: Who maintains and contributes to the project?**
   
