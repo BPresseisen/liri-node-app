@@ -10,7 +10,7 @@
   
 **->>How about an a 1-stop shop for these queries?? **liri.js** is an all-in-one gopher for these details!!** 
   
-*Whether it's attending a concert, a deep dive into a movie's particular production details per your interest, or getting the link to a track for your listening pleasure, the **liri-node-app** provides a singular source to satisfy these pursuits.* 
+*Per your interest--whether it's attending a concert, a deep dive into a movie's particular production details or getting the link to a track for your listening pleasure--the **liri-node-app** provides a singular source to satisfy these pursuits.* 
   
 *It's also a really great way to demonstrate how files and code in node.js are required, leveraged, organized, and how third party data return services are accesed with Axios or libraries in npm.*
 
