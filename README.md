@@ -8,7 +8,7 @@
   
 *A2: Are you tired of having to search for content-music-media-concerts-movies across several different locations/services?* 
   
-**->>How about an a 1-stop shop for these queries?? **liri.js** is an all-in-one media and experiential content details gopher.** 
+**->>How about an a 1-stop shop for these queries?? **liri.js** is an all-in-one gopher for these details!!** 
   
 *Whether it's attending a concert, a deep dive into a movie's particular production details per your interest, or getting the link to a track for your listening pleasure, the **liri-node-app** provides a singular source to satisfy these pursuits.* 
   
