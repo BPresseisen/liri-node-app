@@ -122,7 +122,7 @@ function spotifyThis() {
         .search({ type: 'track', query: contentName })
         .then(
             function (response) {
-                console.log(response);
+                console.log(response.tracks.items[0]);
                 //Artist(s)
                 //The song's name
                 //A preview link of the song from Spotify
