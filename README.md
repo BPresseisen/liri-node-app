@@ -4,7 +4,7 @@
   
 *A1: It is a node.js app that can query and return selected key-value pairs from Bands In Town, Spotify, or OMDB websites based on user-input at the command line in the terminal.* 
 
-**Q2: Why the project is useful?**
+**Q2: Why is the project is useful?**
   
 *A2: Are you tired of having to search for content-music-media-concerts-movies across several different locations/services?* 
   
