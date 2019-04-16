@@ -16,10 +16,9 @@
 
 **Q3: How users can get started with the project?**
   
-*A3: Watch this video!*
+*A3: Watch this video! in the repository!*
   
-  
-  
+  liri-node-app.mov
 
 **Q4: Where users can get help with your project?**
   
@@ -55,6 +54,6 @@ node liri.js do-what-it-says "ENTER TEXT iNSiDE tHesE quotation marks"
   
 *A5: The **liri.js** app is solely maintained and contributed to by its project-repository owner. It is enhanced, modified, or altered in any way at their discretion. Feedback is welcomed--especially in the form of artist/bands, songs, and movie title recommendations!! Thanks for your interest.*
   
-Here are some screen-shots/examples of the **liri.js** app in action
+
   
  
