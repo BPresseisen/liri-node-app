@@ -104,7 +104,7 @@ function spotifyThis() {
                 var example=response.tracks.items[0];
 
                 // //artists name
-                // console.log(example.album.artists[0].name);
+                console.log(example.album.artists[0].name);
                 
                 //The song's name
                 console.log(contentName);
