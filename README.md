@@ -19,6 +19,8 @@
 *A3: Watch this video! in the repository!*
   
   liri-node-app.mov
+    
+    And make sure to look at the screenShots in the folder of the same name...but here are those just to be helpful:
 
 **Q4: Where users can get help with your project?**
   
