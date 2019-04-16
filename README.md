@@ -20,8 +20,23 @@
   
   liri-node-app.mov
     
-    And make sure to look at the screenShots in the folder of the same name...but here are those just to be helpful:
+ *And make sure to look at the screenShots in the folder of the same name...but here are those just to be helpful:*
+   
+ 
+<img width="701" alt="concert-this_blank" src="https://user-images.githubusercontent.com/13972201/56224427-9e807100-603d-11e9-9fd2-5e5a019857aa.png">
 
+<img width="671" alt="concert-this_example" src="https://user-images.githubusercontent.com/13972201/56224439-a2ac8e80-603d-11e9-9b49-57091e66ad02.png">
+
+<img width="741" alt="do-what-it-says_example" src="https://user-images.githubusercontent.com/13972201/56224446-a7714280-603d-11e9-989d-3d3f89500ed7.png">
+
+<img width="826" alt="movie-this_blank" src="https://user-images.githubusercontent.com/13972201/56224459-aa6c3300-603d-11e9-953a-496263d907ba.png">
+
+<img width="837" alt="movie-this_example" src="https://user-images.githubusercontent.com/13972201/56224469-acce8d00-603d-11e9-918d-9026e3811693.png">
+
+<img width="821" alt="spotify-this-song_blank" src="https://user-images.githubusercontent.com/13972201/56224475-af30e700-603d-11e9-9b5d-d66b5134e9cb.png">
+
+<img width="829" alt="spotify-this-song_example" src="https://user-images.githubusercontent.com/13972201/56224483-b22bd780-603d-11e9-949e-95187406514e.png">
+  
 **Q4: Where users can get help with your project?**
   
 *A4: Absolutely begin with reading this README.md file. The instructions above in **Q3**/A3 are an essential starting point. After that, usage is the best way to learn. Start doing some searches!* 
