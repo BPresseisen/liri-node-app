@@ -13,15 +13,6 @@ if (nodeArgs.length === 0) {
 
 } else {
 
-    // for (var i = 3; i < nodeArgs.length; i++) {
-
-    //     if (i > 3 && i < nodeArgs.length) {
-    //     contentName = contentName + "+" + nodeArgs[i];
-    //     }
-    //     else {
-    //     contentName += nodeArgs[i];
-    //     }
-    // }
     contentName = process.argv.slice(3).join(" ");
 };
 
@@ -54,10 +45,8 @@ switch (serviceName) {
                 console.log("Error", error.message);
                 console.log(error.config);
             }
-
             spotifyThis(data);
             return;
-
         });
 };
 
@@ -65,34 +54,29 @@ function concertThis() {
 
     if (contentName === "") {
 
-        //WHAT IS THE DEFAULT SEARCH HERE??
-        //
-        //--> "I Want it That Way" ??
-        //
-        //--> IS THIS SPECIFIED ANYWHERE IN THE INSTRUCTIONS
-        contentName = "";
+        contentName = "Drake";
 
     };
 
-    // Then run a request with axios to the Bands in Town API with the movie specified
     var queryUrl = "https://rest.bandsintown.com/artists/" + contentName + "/events?app_id=codingbootcamp";
-
-    // This line is just to help us debug against the actual URL.
-    console.log(queryUrl);
 
     axios
         .get(queryUrl)
         .then(
             function (response) {
-                // console.log(response);
+                console.log(response);
+                console.log(response.data[0]);
                 console.log("The venue is: " + response.data[0].venue.name);
                 console.log("The venue is located in: " + response.data[0].venue.city + ", " + response.data[0].venue.region );
                 // Date of the Event (use moment to format this as "MM/DD/YYYY")
+                var someDate = response.data[0].datetime;
+                // console.log(someDate);
+                // someDate = someDate.format("MM/DD/YYYY");
+                // console.log(someDate);
+                console.log("The date of the event is: " + someDate);
             })
         .catch(function (error) {
             if (error.response) {
-                // The request was made and the server responded with a status code
-                // that falls out of the range of 2xx
                 console.log(error.response.data);
                 console.log(error.response.status);
                 console.log(error.response.headers);
@@ -108,30 +92,31 @@ function spotifyThis() {
 
     spotify = new Spotify(keys.spotify);
 
-    // var spotify = new Spotify({
-    //     id: spotKeys.id,
-    //     secret: spotKeys.secret
-    // });
-
     if (contentName === "") {
-        //"The Sign" by Ace of Base
-        contentName = "The Sign"
+        
+        contentName = "I Saw the Sign by Ace of Base"
     };
 
     spotify
         .search({ type: 'track', query: contentName })
         .then(
             function (response) {
-                console.log(response.tracks.items[0]);
-                //Artist(s)
+                var example=response.tracks.items[0];
+
+                // //artists name
+                // console.log(example.album.artists[0].name);
+                
                 //The song's name
+                console.log(contentName);
+
                 //A preview link of the song from Spotify
+                console.log(example.external_urls.spotify);
+
                 //The album that the song is from
+                console.log(example.album.name);
             })
         .catch(function (err) {
             if (error.response) {
-                // The request was made and the server responded with a status code
-                // that falls out of the range of 2xx
                 console.log(error.response.data);
                 console.log(error.response.status);
                 console.log(error.response.headers);
@@ -172,8 +157,6 @@ function movieThis() {
             })
         .catch(function (error) {
             if (error.response) {
-                // The request was made and the server responded with a status code
-                // that falls out of the range of 2xx
                 console.log(error.response.data);
                 console.log(error.response.status);
                 console.log(error.response.headers);
