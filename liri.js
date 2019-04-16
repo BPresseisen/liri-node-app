@@ -64,8 +64,9 @@ function concertThis() {
         .get(queryUrl)
         .then(
             function (response) {
-                console.log(response);
-                console.log(response.data[0]);
+                // console.log(response);
+                // console.log(response.data[0]);
+                console.log("An upcoming concert for: " + contentName)
                 console.log("The venue is: " + response.data[0].venue.name);
                 console.log("The venue is located in: " + response.data[0].venue.city + ", " + response.data[0].venue.region );
                 // Date of the Event (use moment to format this as "MM/DD/YYYY")
@@ -104,7 +105,7 @@ function spotifyThis() {
                 var example=response.tracks.items[0];
 
                 // //artists name
-                // console.log(example.album.artists[0].name);
+                console.log(example.album.artists[0].name);
                 
                 //The song's name
                 console.log(contentName);
@@ -137,7 +138,7 @@ function movieThis() {
     var queryUrl = "http://www.omdbapi.com/?t=" + contentName + "&y=&plot=short&apikey=trilogy";
 
     // This line is just to help us debug against the actual URL.
-    console.log(queryUrl);
+    // console.log(queryUrl);
 
     axios
         .get(queryUrl)
